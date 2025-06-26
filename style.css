@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px  25px 0px 25px ;
+   
+   
+}
+ a{
+    color: rgb(27, 136, 209);
+    text-decoration: none;
+  
+ }
+ h1{
+    font-size: 30px;
+    color: rgb(245, 4, 4);
+ }
+ p{
+    font-size: 25px;
+    color: rgb(255, 123, 0);
+ }
+
+ button{
+    font-size: 25px;
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+   
+ }
+   
+#banner{
+    height: 600px;
+    background-image: url(https://valkirias.com.br/wp-content/uploads/2022/07/stranger-things-destacada-valkirias-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#banner div{
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+}
+
+ 
+
+  footer{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #pai{
+
+    padding: 25px ; /* margem interna*/
+    display: flex;
+    flex-direction: row; /*ele controla o eixo principal*/
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+  }
+ 
+  #filho {
+    height: 250px;
+    background-color: rgba(231, 17, 17, 0.212);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }
+  #filho2 {
+    height: 250px;
+    background-color: rgba(231, 17, 17, 0.212);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }  
+  #filho3 {
+    height: 250px;
+    background-color: rgba(231, 17, 17, 0.212);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }  
+  #filho4 {
+    height: 250px;
+    background-color: rgba(231, 17, 17, 0.212);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }  
+  #filho5 {
+    height: 250px;
+    background-color: rgba(231, 17, 17, 0.212);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+  }  
+
+
+  #form-Container{
+    background-color: rgb(0, 0, 0);
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#form-Container form{
+    background-color: white;
+    width: 500px;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+input[type= "text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #007bff;
+}
+
+
+  .fonte{
+    color: white;
+  }
+
+
+
+  #form-container{
+
+    background-image:url(https://i.blogs.es/41c397/stranger-things-temporada-2-critica-espinof/1366_521.jpg);
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    }
+    #form-container form{
+    
+    background-color: rgba(255, 81, 0, 0.473);
+    width:700px;
+    padding: 60px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    input[type = "text"],
+    input[type ="email"],
+    input[type = "password"],
+    section,
+    
+    textarea{
+    
+    padding: 10px;
+    border: 1px;
+    border-radius: 35;
+    }
+    #zizi{
+        height: 700px;
+        background-image: url(https://images.unsplash.com/photo-1597290282695-edc43d0e7129?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFsYyVDMyVBM28lMjBkZSUyMGJhcnxlbnwwfHwwfHx8MA%3D%3D);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+        table{
+    
+    
+            background-color: #ffffff;
+            border-collapse:separate;
+            border-radius: 10px;
+            width: 600px;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.521);
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-self: center;
+            align-self: center;
+            
+        }
+        th,td{
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        padding: 8px;
+        text-align: left;
+        
+        }
+        th{
+        
+            background-color: rgb(231, 125, 26);
+            color: rgb(255, 255, 255);
+        }
+        
+        #tabela{
+    
+            background-image: url(https://static.vecteezy.com/ti/fotos-gratis/t1/15274591-abaixe-o-tampo-da-mesa-de-madeira-com-prateleiras-desfocadas-e-fundo-de-garrafas-para-montagem-do-expositor-ou-visual-do-produto-gratis-foto.jpg);
+        }
+
